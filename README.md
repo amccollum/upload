@@ -3,7 +3,7 @@ upload
 
 Upload your files asynchronously with HTML5:
 
-    upload({
+    upload.upload({
         url: '/upload/handler',
         data: fileObject,
         progress: function (xhr, event) { alert(); },
@@ -13,7 +13,7 @@ Upload your files asynchronously with HTML5:
 
 If you're on a browser that doesn't support HTML5 file uploads:
 
-    isubmit({
+    upload.isubmit({
         url: '/upload/handler',
         inputs: fileInputs,
         success: function () { alert('Uploaded!'); },
