@@ -1,5 +1,6 @@
 upload
---------
+======
+
 Upload your files asynchronously with HTML5:
 
     upload({
