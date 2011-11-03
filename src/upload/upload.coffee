@@ -57,6 +57,6 @@
         o.headers['Content-Type'] = 'application/octet-stream'
         #o.headers['Content-Length'] = o.file.size
 
-        return $.ajax(s)
+        return $.ajax(o)
     
 )(exports ? (@['upload'] = {}))

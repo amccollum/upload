@@ -1,6 +1,6 @@
 {
     "name": "upload",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Asynchronous file uploading using HTML5 file uploading or background iframes",
     "keywords": ["ender", "upload", "async", "files", "iframe", "form", "html5"],
     "author": "Andrew McCollum <amccollum@gmail.com>",
