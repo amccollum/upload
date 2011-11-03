@@ -52,6 +52,7 @@
     upload.upload = (o) ->
         o.method = 'POST'
         o.type = 'json'
+        o.processData = false
         o.headers ?= {}
         o.headers['X-File-Name'] = encodeURIComponent(o.data.name)
         o.headers['Content-Type'] = 'application/octet-stream'
